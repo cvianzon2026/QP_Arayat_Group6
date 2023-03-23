@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <title>Spot the Difference</title>
+        <link rel="stylesheet" href="level-2-styles.css">
+    </head>
+    <body class="container-fluid">
+        <h3>Spot the 5 differences between the images.</h3>
+        <script src="level-2-script.js"></script>
+        <div id="spot" onclick="differences(event)" onmousemove="trackClick(event)" onmouseout="clearstuff()">
+            <img src="B1.png" alt="Spot the Difference Image 1" class="image">
+            <img src="B2.png" alt="Spot the Difference Image 2" class="image">
+        </div>
+        <div class="column">
+                <p id="ufo"> ????? </p>
+                <p id="planet_spot"> ????? </p>
+                <p id="rocket_line"> ????? </p>
+                <p id="planet"> ????? </p>
+                <p id="star"> ????? </p>
+        </div>
+        <div class="column">
+                <a href="level-1.html"><h3>Level 1</h3></a>
+                <a href="level-3.html"><h3>Level 3</h3></a>
+        </div>
+        <script>
+        </script>
+    </body>
+</html>
